@@ -1,4 +1,26 @@
 __pycache__/
+.vscode/
+.pytest_cache/
+*.pyc
+.DS_Store
+.env
+venv/
+.venv/
+.idea/
+.mypy_cache/
+
+# Streamlit secrets (do NOT commit API keys)
+.streamlit/secrets.toml
+
+# Local sqlite DB
+DATA/*.db
+
+# User file containing hashed passwords (sensitive)
+user.txt
+
+# Ignore compiled Python artifacts
+*.egg-info/
+__pycache__/
 *.pyc 
 .env
 .vscode/
